@@ -1,10 +1,10 @@
-# Ascension 🚀
+# Ascension 
 
 **Ascension** is an enterprise-grade Safety Incident Intelligence and Precursor Identification Platform. It combines domain-tuned natural language processing (SafetyBERT), machine learning classification models, and interactive 3D visualizations to help organizations detect Serious Injury & Fatality (SIF) precursors before incidents escalate.
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system is organized into modular services:
 
@@ -29,7 +29,7 @@ The system is organized into modular services:
 
 ---
 
-## ⚡ Quick Start (Local Development)
+##  Quick Start (Local Development)
 
 ### 1. Backend Setup
 
@@ -72,7 +72,7 @@ The frontend will be available at `http://localhost:3000` (or `http://localhost:
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 ### Option A: Render (One-Click Blueprint)
 
@@ -93,7 +93,7 @@ chmod +x setup_gcp.sh
 
 ---
 
-## 🧠 Machine Learning Checkpoint Download
+##  Machine Learning Checkpoint Download
 
 To download the SafetyBERT transformer checkpoint locally or on a production host:
 
