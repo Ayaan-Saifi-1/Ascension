@@ -1,0 +1,8 @@
+{
+  "model": "adanish91/safetybert",
+  "model_revision": "51d8f1e5e3c351273d81f3210fe1de16647cbd9e",
+  "tokenizer": "google-bert/bert-base-uncased",
+  "tokenizer_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "vocab_size": 30522,
+  "source": "https://huggingface.co/adanish91/safetybert"
+}

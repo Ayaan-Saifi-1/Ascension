@@ -1,0 +1,31 @@
+{
+  "status": "SYNTHETIC_DEVELOPMENT_ONLY",
+  "records": 828,
+  "rules": [
+    "Bypassing Safety Controls",
+    "Confined Space",
+    "Driving",
+    "Energy Isolation",
+    "Hot Work",
+    "Line of Fire",
+    "Safe Mechanical Lifting",
+    "Work Authorisation",
+    "Working at Height"
+  ],
+  "labels": {
+    "1": "template-defined SIF-potential development label",
+    "0": "template-defined non-SIF development label"
+  },
+  "split_counts": {
+    "train": 502,
+    "calibration": 118,
+    "validation": 117,
+    "test": 91
+  },
+  "sha256": "acb47b9a714a3e0a3c2a7c0b796bf6144ad8095fb8dfd5efce6b29cb1b7a3272",
+  "prohibitions": [
+    "Do not merge with real reports or reviewer labels.",
+    "Do not use for safety-model validation, calibration, performance claims or production decisions.",
+    "Do not represent any row as an OIL, IADC, BSEE, IOGP or other real incident."
+  ]
+}

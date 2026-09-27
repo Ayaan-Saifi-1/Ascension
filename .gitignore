@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.sqlite3
+
+# Node / Frontend
+**/node_modules/
+**/dist/
+**/.next/
+**/.vinext/
+**/.wrangler/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# Large ML Weights (>100MB)
+# SafetyBERT model checkpoint (417MB) is downloaded at build/setup via scripts/download_model.py
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+ml/models/safetybert/model.safetensors
+
+# Large Raw Archives and Pilot Datasets
+data/pilot/
+*.zip
+*.tar.gz
+
+# System & Editor
+.DS_Store
+Thumbs.db
+*.log

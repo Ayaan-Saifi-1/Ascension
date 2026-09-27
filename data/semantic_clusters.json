@@ -1,0 +1,264 @@
+[
+  {
+    "cluster_id": "SEM-001",
+    "report_ids": [
+      "DEMO-079",
+      "DEMO-052",
+      "DEMO-025"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-002",
+    "report_ids": [
+      "DEMO-075",
+      "DEMO-048",
+      "DEMO-021"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-003",
+    "report_ids": [
+      "DEMO-080",
+      "DEMO-053",
+      "DEMO-026"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-004",
+    "report_ids": [
+      "DEMO-063",
+      "DEMO-036",
+      "DEMO-009"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-005",
+    "report_ids": [
+      "DEMO-071",
+      "DEMO-044",
+      "DEMO-017"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-006",
+    "report_ids": [
+      "DEMO-070",
+      "DEMO-043",
+      "DEMO-016"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-007",
+    "report_ids": [
+      "DEMO-076",
+      "DEMO-049",
+      "DEMO-022"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-008",
+    "report_ids": [
+      "DEMO-066",
+      "DEMO-039",
+      "DEMO-012"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-009",
+    "report_ids": [
+      "DEMO-065",
+      "DEMO-038",
+      "DEMO-011"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-010",
+    "report_ids": [
+      "DEMO-067",
+      "DEMO-040",
+      "DEMO-013"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-011",
+    "report_ids": [
+      "DEMO-060",
+      "DEMO-033",
+      "DEMO-006"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-012",
+    "report_ids": [
+      "DEMO-055",
+      "DEMO-028",
+      "DEMO-001"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-013",
+    "report_ids": [
+      "DEMO-058",
+      "DEMO-031",
+      "DEMO-004"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-014",
+    "report_ids": [
+      "DEMO-074",
+      "DEMO-047",
+      "DEMO-020"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-015",
+    "report_ids": [
+      "DEMO-057",
+      "DEMO-030",
+      "DEMO-003"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-016",
+    "report_ids": [
+      "DEMO-056",
+      "DEMO-029",
+      "DEMO-002"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-017",
+    "report_ids": [
+      "DEMO-077",
+      "DEMO-054",
+      "DEMO-050",
+      "DEMO-027",
+      "DEMO-023"
+    ],
+    "report_count": 5,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-018",
+    "report_ids": [
+      "DEMO-069",
+      "DEMO-042",
+      "DEMO-015"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-019",
+    "report_ids": [
+      "DEMO-068",
+      "DEMO-041",
+      "DEMO-014"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-020",
+    "report_ids": [
+      "DEMO-061",
+      "DEMO-034",
+      "DEMO-007"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-021",
+    "report_ids": [
+      "DEMO-059",
+      "DEMO-032",
+      "DEMO-005"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-022",
+    "report_ids": [
+      "DEMO-062",
+      "DEMO-035",
+      "DEMO-008"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-023",
+    "report_ids": [
+      "DEMO-064",
+      "DEMO-037",
+      "DEMO-010"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-024",
+    "report_ids": [
+      "DEMO-073",
+      "DEMO-046",
+      "DEMO-019"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-025",
+    "report_ids": [
+      "DEMO-078",
+      "DEMO-051",
+      "DEMO-024"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  },
+  {
+    "cluster_id": "SEM-026",
+    "report_ids": [
+      "DEMO-072",
+      "DEMO-045",
+      "DEMO-018"
+    ],
+    "report_count": 3,
+    "source": "SafetyBERT + HDBSCAN"
+  }
+]

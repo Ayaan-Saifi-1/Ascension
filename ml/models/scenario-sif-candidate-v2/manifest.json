@@ -1,0 +1,224 @@
+{
+  "status": "SYNTHETIC_DEVELOPMENT_ONLY",
+  "hse_validated": false,
+  "production_eligible": false,
+  "development_only": true,
+  "development_release_eligible": true,
+  "model_version": "development-sif-scenario-v2.1",
+  "artifact_file": "classifier.joblib",
+  "artifact_sha256": "aae1b22754bd4634975b1e9ac243601532d2ab3d59d4bf1faf4b8da57b1c47cc",
+  "dataset_sha256": "c255a469e77f733048739e4a0f31f6ba3be4838d31934227d97f9fdd63ccb543",
+  "encoder": {
+    "model": "adanish91/safetybert",
+    "model_revision": "51d8f1e5e3c351273d81f3210fe1de16647cbd9e",
+    "tokenizer": "google-bert/bert-base-uncased",
+    "tokenizer_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "vocab_size": 30522,
+    "source": "https://huggingface.co/adanish91/safetybert"
+  },
+  "uses_encoder": true,
+  "candidate": "semantic-lexical-C4",
+  "inference_strategy": "max(full_report,sentence_chunks)",
+  "threshold": 0.6377176222245684,
+  "negative_threshold": null,
+  "sample_sizes": {
+    "train": 54,
+    "calibration": 18,
+    "validation": 18,
+    "test": 36
+  },
+  "validation": {
+    "records": 18,
+    "accuracy": 1.0,
+    "accuracy_95_interval": [
+      0.8241207763533505,
+      1.0
+    ],
+    "balanced_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "f2": 1.0,
+    "brier": 0.03432648271125374,
+    "confusion_matrix": [
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  "previous_model_scenario_test": {
+    "records": 36,
+    "accuracy": 0.5,
+    "accuracy_95_interval": [
+      0.34474325409627216,
+      0.6552567459037278
+    ],
+    "balanced_accuracy": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "f2": 0.0,
+    "brier": 0.19964005330437148,
+    "confusion_matrix": [
+      [
+        18,
+        0
+      ],
+      [
+        18,
+        0
+      ]
+    ]
+  },
+  "candidate_scenario_test": {
+    "records": 36,
+    "accuracy": 0.9722222222222222,
+    "accuracy_95_interval": [
+      0.8583028134672659,
+      0.9950795928601892
+    ],
+    "balanced_accuracy": 0.9722222222222222,
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1": 0.9714285714285714,
+    "f2": 0.9550561797752809,
+    "brier": 0.02372151191699374,
+    "confusion_matrix": [
+      [
+        18,
+        0
+      ],
+      [
+        1,
+        17
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "word-character-C1",
+      "validation": {
+        "records": 18,
+        "accuracy": 0.9444444444444444,
+        "accuracy_95_interval": [
+          0.7424269921812815,
+          0.9901248090216964
+        ],
+        "balanced_accuracy": 0.9444444444444444,
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9473684210526315,
+        "f2": 0.9782608695652174,
+        "brier": 0.06895307735800672,
+        "confusion_matrix": [
+          [
+            8,
+            1
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "threshold": 0.5704374948609683
+    },
+    {
+      "name": "word-character-C4",
+      "validation": {
+        "records": 18,
+        "accuracy": 0.9444444444444444,
+        "accuracy_95_interval": [
+          0.7424269921812815,
+          0.9901248090216964
+        ],
+        "balanced_accuracy": 0.9444444444444444,
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1": 0.9473684210526315,
+        "f2": 0.9782608695652174,
+        "brier": 0.06811168478648802,
+        "confusion_matrix": [
+          [
+            8,
+            1
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "threshold": 0.5647983313298869
+    },
+    {
+      "name": "semantic-lexical-C1",
+      "validation": {
+        "records": 18,
+        "accuracy": 1.0,
+        "accuracy_95_interval": [
+          0.8241207763533505,
+          1.0
+        ],
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0,
+        "brier": 0.03676216885918936,
+        "confusion_matrix": [
+          [
+            9,
+            0
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "threshold": 0.6245255438779145
+    },
+    {
+      "name": "semantic-lexical-C4",
+      "validation": {
+        "records": 18,
+        "accuracy": 1.0,
+        "accuracy_95_interval": [
+          0.8241207763533505,
+          1.0
+        ],
+        "balanced_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f2": 1.0,
+        "brier": 0.03432648271125374,
+        "confusion_matrix": [
+          [
+            9,
+            0
+          ],
+          [
+            0,
+            9
+          ]
+        ]
+      },
+      "threshold": 0.6377176222245684
+    }
+  ],
+  "trained_at": "2026-09-19T18:46:32.217153+00:00",
+  "limitations": [
+    "All cases and target expectations are synthetic and assistant-authored, not independently HSE-reviewed.",
+    "Scenario pairs are split together; vocabulary and authorship still overlap across splits.",
+    "Small, balanced challenge scores do not establish field accuracy or real prevalence calibration.",
+    "No automatic non-SIF clearance and no pseudo-labels for real records.",
+    "Life-saving-rule tags remain the separate rule extractor, not a trained tag head."
+  ]
+}
