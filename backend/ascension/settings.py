@@ -52,11 +52,21 @@ TIME_ZONE="Asia/Kolkata"
 USE_TZ=True
 DEFAULT_AUTO_FIELD="django.db.models.BigAutoField"
 
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+
 raw_cors = os.environ.get("CORS_ALLOWED_ORIGINS", "")
 if raw_cors.strip():
-    CORS_ALLOWED_ORIGINS = [o.strip() for o in raw_cors.split(",") if o.strip()]
+    CORS_ALLOWED_ORIGINS = [o.strip() for o in raw_cors.split(",") if o.strip() and "*" not in o]
 else:
     CORS_ALLOWED_ORIGINS = ["http://localhost:9234","http://127.0.0.1:9234","http://localhost:5173","http://127.0.0.1:5173","http://localhost:3000","http://localhost:5785","http://127.0.0.1:5785","https://ascension.matrikaregmi.com.np","http://ascension.matrikaregmi.com.np"]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.onrender\.com$",
+    r"^https://.*\.render\.com$",
+    r"^https://.*\.matrikaregmi\.com\.np$",
+    r"^http://localhost(:\d+)?$",
+    r"^http://127\.0\.0\.1(:\d+)?$",
+]
 
 raw_csrf = os.environ.get("CSRF_TRUSTED_ORIGINS", "")
 if raw_csrf.strip():
